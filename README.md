@@ -8,11 +8,12 @@ Steps:
 
 1. Navigate to Menu Screen
 2. Click on Update (located under the tools section)
-3. Click on Retrieve Update (please be patient... your DXMINI is downloading the required files)
-4. Click on Prepare Update
-5. Click on Apply Update
-6. You screen will show the installation progress
-7. Please power cycle the DXMINI when the screen indicates 100% complete
+3. Click on Enable 
+4. Click on Retrieve Update (please be patient... your DXMINI is downloading the required files)
+5. Click on Prepare Update
+6. Click on Apply Update
+7. You screen will show the installation progress
+8. Please power cycle the DXMINI when the screen indicates 100% complete
 
 
 
