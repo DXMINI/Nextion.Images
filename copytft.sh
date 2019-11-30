@@ -1,9 +1,12 @@
 #!/bin/bash
-#########################################################
-#  Nextion TFT Support for Nextion screen copy correct  #
-#  file for user screen after Git Command.              #
-#  KF6S                                     03-19-2019  #
-#########################################################
+############################################################
+#  Change DMR Master in /etc/mmdvmhost, find old value and #
+#  substitute with new value from Profie 2 screen passed   #
+#  in $1.                                                  #
+#                                                          #
+#  KF6S                                        05-20-2019  #
+#  Edited by W9DXM			       11-30-2019  #
+############################################################
 # Use screen model from command $1
 if [ -z "$1" ]; then
         exit
@@ -21,7 +24,7 @@ status=$?
 
 if test $status -eq 0
 then
-        echo "Nextion tft file successfully copied!"
+        echo "DXMINI v2 file successfully copied!"
 
 else
         #Put Pi-Star file system in RW mode
@@ -32,8 +35,8 @@ else
         status=$?
         if test $status -eq 0
         then
-                echo "Nextion tft file successfully copied, on second try!"
+                echo "DXMINI v2 file successfully copied, on second try!"
         else
-                echo "Nextion tft file copy failed!"
+                echo "DXMINI v2 file copy failed!"
         fi
 fi
