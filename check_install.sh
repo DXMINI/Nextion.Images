@@ -4,6 +4,7 @@
 #  if files were installed correctly using Git button   #
 #                                                       #
 #  KF6S                                     05-01-2019  #
+#  Edited by W9DXM                          11-30-2019  #
 #########################################################
 
 clear
